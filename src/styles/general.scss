@@ -1,2 +1,6 @@
-@use './partials/mixin';
-@use './partials/variables';
+@use './partials/mixin' as *;
+@use './partials/variables' as *;
+
+*{
+    @include reset
+}
