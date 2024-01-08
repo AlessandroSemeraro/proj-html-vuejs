@@ -2,5 +2,6 @@
 @use './partials/variables' as *;
 
 *{
-    @include reset
+    @include reset;
+    font-family: sans-serif;
 }
