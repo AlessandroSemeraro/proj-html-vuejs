@@ -1,6 +1,6 @@
 <template >
     <article>
-        <img :src="imageSrc" alt="">
+        <img :src="imageSrc" alt="CardsPresentation">
     </article>
 </template>
 

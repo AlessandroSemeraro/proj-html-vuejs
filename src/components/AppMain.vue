@@ -1,12 +1,13 @@
 
-
 <template>
     <main>
-        <section class="mainPresentation-upper">
+        <section class="mainBgPresentation-upper">
             <MainPresentation />
         </section>
-        <section class="mainPresentation-bottom">
-            
+        <section class="mainBgPresentation-lower">
+        </section>
+        <section class="main-bottom">
+            <MainBottom />
         </section>
 
     </main>
@@ -15,17 +16,19 @@
 <script>
 
 import MainPresentation from './MainPresentation.vue';
+import MainBottom from './MainBottom.vue';
 
 export default {
     name: 'AppMain',
 
     components: {
-        MainPresentation
+        MainPresentation,
+        MainBottom,
     },
 }
 </script>
 <style lang="scss" scoped>
-.mainPresentation-upper {
+.mainBgPresentation-upper {
     background-size: 85%;
     background-image: url(../styles/img/h2-background-img-02.png);
     background-repeat: repeat-x;
@@ -35,10 +38,16 @@ export default {
     border: 4px solid red;
 }
 
-.mainPresentation-bottom {
-    height: 100rem;
+.mainBgPresentation-lower {
+    height: 92rem;
     background-size: 85%;
     background-image: url(../styles/img/h3-background-img-03.png);
     background-repeat: repeat-x;
 }
+
+.main-bottom{
+    display: flex;
+    justify-content: center;
+}
+
 </style>
