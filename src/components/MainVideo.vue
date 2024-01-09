@@ -19,13 +19,13 @@ div {
 .video-illustration {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
 button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 50%;
     border: none;
     border-radius: 50%;

@@ -64,7 +64,6 @@ export default {
 
 .main-video{
     height: 35rem;
-    width: 100%;
 }
 
 .mainBg-subscription{
