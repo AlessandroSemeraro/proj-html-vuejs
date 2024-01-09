@@ -13,6 +13,9 @@
         <section class="main-video">
             <MainVideo/>
         </section>
+        <section class="mainBg-subscription">
+            <SubscriptionPlan/>
+        </section>
     </main>
 </template>
 
@@ -22,6 +25,7 @@ import MainPresentation from './MainPresentation.vue';
 import MainBottomPresentation from './MainBottomPresentation.vue';
 import Socials from './Socials.vue';
 import MainVideo from './MainVideo.vue';
+import SubscriptionPlan from './SubscriptionPlan.vue';
 
 export default {
     name: 'AppMain',
@@ -30,7 +34,8 @@ export default {
     MainPresentation,
     MainBottomPresentation,
     Socials,
-    MainVideo
+    MainVideo,
+    SubscriptionPlan
 },
 }
 </script>
@@ -60,6 +65,15 @@ export default {
 .main-video{
     height: 35rem;
     width: 100%;
+}
+
+.mainBg-subscription{
+    display: flex;
+    justify-content: center;
+    height: 70rem;
+    background-image: url(../styles/img/h2-background-img-03.png);
+    background-position: 0 -3rem;
+    padding-top: 10rem;
 }
 
 </style>
