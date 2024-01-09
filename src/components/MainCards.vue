@@ -24,7 +24,6 @@ export default {
         display: flex;
         flex-wrap: nowrap;
         height: 33rem;
-        border: 1px solid red;
 
         img{
             width: 100%;

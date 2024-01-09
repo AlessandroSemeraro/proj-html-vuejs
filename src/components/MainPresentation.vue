@@ -67,7 +67,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid purple;
     position: relative;
 
     .left-wrapper-MainPresentation {
@@ -84,7 +83,6 @@ p {
     position: absolute;
     top: 30rem;
     width: 60%;
-    border: 1px solid magenta;
     display: flex;
     flex-wrap: wrap;
 }

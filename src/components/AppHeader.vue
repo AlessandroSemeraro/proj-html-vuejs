@@ -48,7 +48,6 @@ export default {
 <style lang="scss" scoped>
 header {
     height: 6rem;
-    border: 1px solid black;
 
     nav {
         height: 100%;
