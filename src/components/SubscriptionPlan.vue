@@ -51,7 +51,7 @@ export default {
 
     .my-dollar-fs{
         font-size: 1rem;
-        line-height: 
+        vertical-align: top;
     }
     
 }
