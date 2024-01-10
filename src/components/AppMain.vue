@@ -15,6 +15,7 @@
         </section>
         <section class="mainBg-subscription">
             <SubscriptionPlan/>
+            <SvgIcons/>
         </section>
     </main>
 </template>
@@ -26,6 +27,7 @@ import MainBottomPresentation from './MainBottomPresentation.vue';
 import Socials from './Socials.vue';
 import MainVideo from './MainVideo.vue';
 import SubscriptionPlan from './SubscriptionPlan.vue';
+import SvgIcons from './SvgIcons.vue';
 
 export default {
     name: 'AppMain',
@@ -35,7 +37,8 @@ export default {
     MainBottomPresentation,
     Socials,
     MainVideo,
-    SubscriptionPlan
+    SubscriptionPlan,
+    SvgIcons,
 },
 }
 </script>
@@ -63,16 +66,17 @@ export default {
 }
 
 .main-video{
-    height: 35rem;
+    height: 30rem;
 }
 
 .mainBg-subscription{
     display: flex;
     justify-content: center;
-    height: 70rem;
+    height: 50rem;
     background-image: url(../styles/img/h2-background-img-03.png);
     background-position: 0 -3rem;
     padding-top: 10rem;
+    position: relative;
 }
 
 </style>

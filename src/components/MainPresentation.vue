@@ -50,13 +50,18 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@use '../styles/partials/variables';
+
 h2 {
-    font-size: 2.85rem;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 p {
-    font-size: 0.85rem;
-    color: #A6A6A6;
+    font-size: variables.$sm-text;
+    line-height: variables.$space-lines;
+    font-weight: 200;
 }
 
 

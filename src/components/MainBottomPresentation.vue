@@ -3,7 +3,8 @@
         <div class="container-left-mainBottom">
             <h3>What we do?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Culpa repudiandae reprehenderit assumenda. Illum odio debitis, molestias qui deleniti obcaecati.</p>
+                Culpa repudiandae reprehenderit assumenda.
+                Dolor pretium quis sem.  </p>
             <a href="#" class="myButton"><strong>Read more <i class="fa fa-solid fa-caret-right arrow"></i></strong></a>
         </div>
         <div class="container-right-mainBottom">
@@ -49,25 +50,22 @@ export default {
 }
 
 .container-left-mainBottom {
-    width: 40%;
+    width:40%;
     margin-top: 1.5rem;
+    margin-right: 3rem;
     display: flex;
     flex-direction: column;
-    
-
-    h3,
-    p {
-        margin-bottom: 2rem;
-    }
 
     h3{
         font-size: variables.$md-text;
+        margin-bottom: 1rem;
     }
 
     p {
         font-size: variables.$sm-text;
-        color: variables.$grey-text;
+        font-weight: 200;
         line-height: variables.$space-lines;
+        margin-bottom: 1.75rem;
     }
 
     .myButton {
@@ -84,6 +82,10 @@ export default {
         text-decoration: none;
         text-align: center;
 
+    }
+
+    i{
+        vertical-align:baseline;
     }
     .myButton:hover {
         color: white;
@@ -105,20 +107,26 @@ export default {
     display: flex;
     flex-wrap: wrap;
 
+    img{
+        width: 4rem;
+    }
 
     article{
         width: calc(100% / 2);
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1.5rem 3rem;
+        padding:2rem 5rem 0 5rem;
+        cursor: pointer;
+        
 
         div{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1.25rem 2rem 1.25rem 2rem;
+        padding: 0.9rem 1.5rem 0.9rem 1.5rem;
         border: 1.5px solid transparent;
+        margin-bottom: 0.25rem;
         }
 
         div:hover{
